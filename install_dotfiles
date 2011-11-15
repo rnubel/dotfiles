@@ -1,0 +1,4 @@
+echo "Copying dotfiles into home directory..."
+cp . ~ -R
+echo "Done. Sourcing bashrc."
+source ~/.bashrc
