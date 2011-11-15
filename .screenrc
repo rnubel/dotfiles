@@ -1,0 +1,15 @@
+# no message when screen is started
+startup_message off
+
+# define the scrollback buffer
+defscrollback 10000
+
+# adds a caption at the bottom of the screen
+#caption always '%{= kG}[ %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%{g} ]%= [%{B} %d/%M/%Y %{W}%c:%s %{g}]'
+caption always '%{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{B}%d/%M/%Y %{W}%c:%s'
+
+
+# color support
+attrcolor b ".I" 
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
