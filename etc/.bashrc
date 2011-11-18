@@ -6,6 +6,10 @@ alias hal-start="VBoxHeadless --startvm Hal &"
 alias hal-open="ssh cnuapp@hal"
 alias hal-stop="VBoxManage controlvm Hal poweroff"
 
+alias lenny-start="VBoxHeadless --startvm Lenny &"
+alias lenny-open="ssh cnuapp@lenny"
+alias lenny-stop="VBoxManage controlvm Lenny poweroff"
+
 export P4CONFIG=~/.p4config
 
 if [ -d ${HOME}/bin ] ; then
