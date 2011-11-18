@@ -10,3 +10,4 @@ set autoindent
 noremap <A-Left> gT 
 noremap <A-Right> gt
 
+syntax on
