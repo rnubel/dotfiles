@@ -3,5 +3,4 @@ cp etc/. ~ -R
 echo "Copying bin folder into home/bin..."
 mkdir ~/bin
 cp bin/. ~/bin -R
-echo "Done. Sourcing bashrc."
-source ~/.bashrc
+echo "Done. Source bashrc to reload your shell."
