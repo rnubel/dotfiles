@@ -1,22 +1,7 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
-
-alias hal-start="VBoxHeadless --startvm Hal &"
-alias hal-open="ssh cnuapp@hal"
-alias hal-stop="VBoxManage controlvm Hal poweroff"
-
-alias lenny-start="VBoxHeadless --startvm 'Lenny Prime' &"
-alias lenny-open="ssh cnuapp@192.168.56.101"
-alias lenny-stop="VBoxManage controlvm 'Lenny Prime' poweroff"
-
-export P4CONFIG=~/.p4config
-
 if [ -d ${HOME}/bin ] ; then
  PATH="${HOME}/bin:${PATH}"
 fi 
 
-PATH="/var/lib/gems/1.8/bin:${PATH}"
 PATH="/home/rnubel/bin:${PATH}"
 export PATH
 
