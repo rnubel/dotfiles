@@ -5,6 +5,8 @@ set shiftwidth=2
 set expandtab
 retab
 
+autocmd BufRead,BufNewFile   *.go set noexpandtab
+
 set autoindent
 
 noremap <A-Left> gT 
