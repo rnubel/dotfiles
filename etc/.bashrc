@@ -89,6 +89,15 @@ alias l='ls -CF'
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+# git aliases
+alias gs='git status'
+alias gcm='git checkout master'
+alias gpom='git pull origin master'
+alias gpum='git pull upstream master'
+
+# ruby aliases
+alias be='bundle exec'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
