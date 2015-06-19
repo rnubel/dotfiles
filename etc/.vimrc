@@ -24,3 +24,8 @@ function! StripWhitespace ()
   call setpos('.', save_cursor)
   call setreg('/', old_query)
 endfunction 
+
+execute pathogen#infect()
+
+
+set laststatus=2
