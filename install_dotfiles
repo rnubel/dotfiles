@@ -17,4 +17,6 @@ git clone https://github.com/scrooloose/nerdtree.git
 
 git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
 
+git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+
 echo "Done. Source bashrc to reload your shell."
