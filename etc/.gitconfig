@@ -27,4 +27,5 @@
   untracked = white
 [color "sh"]
   branch = yellow
-
+[global]
+  editor = /usr/bin/vim
