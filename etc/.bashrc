@@ -1,9 +1,12 @@
 if [ -d ${HOME}/bin ] ; then
  PATH="${HOME}/bin:${PATH}"
-fi 
+fi
 
-PATH="/home/rnubel/bin:${PATH}"
+PATH="${HOME}/bin:${PATH}"
 export PATH
+
+# Go stuff
+export GOPATH="${HOME}/Sandbox/go"
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
