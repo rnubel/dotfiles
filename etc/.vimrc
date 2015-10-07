@@ -5,6 +5,8 @@ set shiftwidth=2
 set expandtab
 retab
 
+set backspace=2
+
 autocmd BufRead,BufNewFile   *.go set noexpandtab
 
 set autoindent
