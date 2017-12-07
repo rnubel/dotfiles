@@ -1,5 +1,5 @@
 [user]
-  email = rnubel@enovafinancial.com
+  email = robert.nubel@gmail.com
   name = Robert Nubel
   username = rnubel
 [alias]
@@ -27,5 +27,5 @@
   untracked = white
 [color "sh"]
   branch = yellow
-[global]
+[core]
   editor = /usr/bin/vim
