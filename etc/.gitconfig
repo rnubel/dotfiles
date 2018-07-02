@@ -29,3 +29,4 @@
   branch = yellow
 [core]
   editor = /usr/bin/vim
+  excludesfile = ~/.gitignore_global
